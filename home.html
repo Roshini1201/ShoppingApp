@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amazin</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="keychains.html">Keychains</a>
+            <a href="bracelets.html">Bracelets</a>
+            <a href="plushies.html">Plushies</a>
+            <button onclick="toggleDark()">🌗</button>
+        </div>
+        <div class="box">
+            <h1>Amazin</h1>
+            <p>Welcome to Amazin here you can buy various products from different categories</p>
+            <p>We provide a wide range of products to choose from</p>
+
+            <h2>Browse products:</h2>
+            <div id="products">
+                <div class="product">
+                    <form action="keychains.html">
+                        <h2>Keychains</h2>
+                        <img src="/pics/key1.jpeg" alt="keychain">
+                        <button type="submit" class="browse">Browse Keychains</button>
+                    </form>
+                </div>
+                <div class="product">
+                    <form action="bracelets.html">
+                        <h2>Bracelets</h2>
+                        <img src="/pics/brace3.webp" alt="bracelet">
+                        <button type="submit" class="browse">Browse Bracelets</button>
+                    </form>
+                </div>
+                <div class="product">
+                    <form action="plushies.html">
+                        <h2>Plushies</h2>
+                        <img src="/pics/plush1.webp" alt="plushie">
+                        <button type="submit" class="browse">Browse Plushies</button>
+                    </form>
+                </div>
+            </div>
+    </body>
+</html>
